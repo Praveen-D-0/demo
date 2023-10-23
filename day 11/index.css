@@ -1,0 +1,15 @@
+h2 {
+    color: blueviolet;
+}
+.sticky {
+    position: fixed;
+    background-color: chartreuse;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 10px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+ 

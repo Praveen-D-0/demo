@@ -1,0 +1,26 @@
+/* button {
+    color: darkgreen;
+    background-color: rgb(209, 178, 214);
+}
+#leftAlign {
+    text-align: left;
+} */
+/* *{
+    text-align: center;
+} */
+#headingID {
+    color: gold;
+}
+.headingClass {
+    color: red ;
+}
+
+#headingID {
+    color: dodgerblue ;
+}
+img {
+    display: block;
+}
+div {
+    display: inline;
+}
