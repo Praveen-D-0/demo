@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Character Counter</title>
+   
+</head>
+<body>
+  <h1>Twitter Character Counter</h1>
+  <textarea id="tweet" rows="6" cols="50" placeholder="Compose your tweet..."></textarea>
+  <p>Character count: <span id="charCount">0</span> / 280</p>
+
+  <script>
+    // Get the textarea element
+    const tweetInput = document.getElementById('tweet');
+    
+    // Get the character count element
+    const charCount = document.getElementById('charCount');
+    
+    // Add an input event listener to the textarea
+    tweetInput.addEventListener('input', function() {
+      // Get the current character count
+      const currentCount = tweetInput.value.length;
+      
+      // Update the character count display
+      charCount.textContent = currentCount + ' / 280';
+      
+      // Change the color based on character count
+      if (currentCount > 280) {
+        charCount.style.color = 'red';
+      } else {
+        charCount.style.color = '#333';
+      }
+    });
+  </script>
+</body>
+</html>
+
