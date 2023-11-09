@@ -1,13 +1,51 @@
- const view1=document.getElementById("view1");
- console.log(view1);
+//  let promise = new Promise((resolve, reject) => {
+//     // perform some asynchronous operation
+//     let result = 5;
 
- const view2 = document.querySelector("#view2");
- console.log(view2);
+//     if (result > 10) {
+//         resolve(result); // the promise gets resolved
+//     } else {
+//         reject('result is not greater than 10'); // reject the promise
+//     }
+// });
 
- view1.style.display = "flex";
- view2.style.display = "none";
- for(i=0; i < evenDivs.length;i++){
-    evenDivs[i].style.width ="150";
-    evenDivs[i].style.backgroundColor="green";
-    
- }
+// // define the callbacks passed to the promise
+// promise
+//     .then(
+//         // if the promise gets fulfilled, call the following function
+//         (value) => {
+//             console.log('Result:', value);
+//         },
+//         (error) => {
+//             console.log('Error:', error);
+//         }
+//
+
+
+// new Promise((resolve, reject) => {
+//    console.log('initial');
+//    resolve();
+// })
+//    .then(() => {
+//        console.log('do this');
+//    })
+//    .catch(() => {
+//        console.log('do that');
+//        return Promise.reject();
+//       //  return Promise.resolve();
+//    })
+//    .then(() => {
+//        console.log('do this, no matter what happened before');
+//        // throw new Error();
+//        // return Promise.reject();
+//    })
+//    .then(() => {
+//        console.log('execute this too');
+//    })
+//    .then(() => {
+//        console.log('execute this too after');
+//    })
+//    .catch(() => {
+//        console.log('skipped the above thens');
+//    })
+ 
